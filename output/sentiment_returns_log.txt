@@ -1,0 +1,37 @@
+헤드라인 34,369건
+  lm    긍정 6% / 부정 34% / 중립 61%
+  vader 긍정 27% / 부정 38% / 중립 35%
+  두 사전 점수 상관 0.41, 판정 일치율 54%
+
+[lm] 가장 부정적 5개: Companies That Challenged Google’s Monopoly See Antitrust Critics’ Firing As A Threat | In Seven States, Exposing Animal Abuse Is A Worse Crime Than The Abuse Itself | EPA Official Says 'False Allegations' Forced Her Resignation Over Flint Water Crisis | Travel Ban Challengers Lose Bid For Rudy Giuliani's Purported 'Muslim Ban' Memo | Hurricane Harvey Exposes Danger Of Tax Cuts And 'Limited Government'
+[lm] 가장 긍정적 5개: A Year of Great Opportunity for Progressives | Trump Describes Paris Terror Attack: 'Boom... Boom... Boom' | Melania Trump: Adults Should 'Take The Lead' In Encouraging Positive Social Media Habits | Brian Kemp Easily Wins GOP Nomination Despite Being Trump’s No. 1 Revenge Target | Progressives Enjoy Wealth Of Good Options In Race To Succeed Key Chicago Congressman
+
+[vader] 가장 부정적 5개: In Seven States, Exposing Animal Abuse Is A Worse Crime Than The Abuse Itself | Two Men Found Guilty Of Murder In 'Fast And Furious' Killing Of Border Agent | Michael Moore Calls Flint Water Crisis A 'Hate Crime' Based On GOP's 'Race Hatred' | States Set Aside Millions Of Dollars For Crime Victims. But Some Gun Violence Survivors Don’t Get the Funds They Desperately Need. | Terrorism Analyst Fired For Racist Tweet Mocking Chinese Government
+[vader] 가장 긍정적 5개: Progressives Enjoy Wealth Of Good Options In Race To Succeed Key Chicago Congressman | Barack Obama Gives Powerful Eulogy For Elijah Cummings: 'A Man Of Noble And Good Heart' | These Are The 'Great Intellects' Donald Trump Would Like To Put On The Supreme Court | He's Perhaps Not Their First Choice, But Top Civil Rights Groups Praise Supreme Court Nominee | Mitt Romney Wins 'Profile In Courage' Award, For Defying A Party Of Cowards
+
+톤 → 다음 거래일 수익률 (slope: 톤 1단위당 bp, q5-q1: 가장 긍정적인 날 20% - 가장 부정적인 날 20%, bp)
+lexicon    period  days   corr  slope_bp      t     p   q1_bp   q5_bp  q5_minus_q1
+     lm 앞 2014-16   682  0.123    69.659  3.268 0.001 -10.909  12.720       23.629
+     lm 뒤 2017-22  1188 -0.020    -7.605 -0.704 0.482   8.025   0.790       -7.235
+     lm        전체  1870 -0.000     0.061  0.006 0.995   7.561   5.668       -1.894
+     lm      2014   178  0.221    90.829  2.436 0.015 -24.244  24.215       48.459
+     lm      2015   252  0.137    81.454  2.319 0.020 -13.582  13.992       27.573
+     lm      2016   252  0.028    19.088  0.461 0.645  -0.255   8.188        8.443
+     lm      2017   251 -0.027   -11.263 -0.561 0.575  12.532   7.648       -4.883
+     lm      2018   201  0.066    19.291  0.945 0.345 -11.036  -2.648        8.388
+     lm      2019   156 -0.058   -11.180 -0.755 0.450  10.973 -16.205      -27.178
+     lm      2020   203 -0.066   -38.593 -1.049 0.294  10.432   6.154       -4.278
+     lm      2021   216 -0.061   -11.424 -0.834 0.405  33.158   8.458      -24.699
+     lm      2022   161  0.031    11.234  0.384 0.701 -10.414  28.413       38.827
+  vader 앞 2014-16   682  0.002     1.898  0.065 0.948  -5.564  -0.218        5.346
+  vader 뒤 2017-22  1188  0.013     6.484  0.363 0.716  -6.309  10.667       16.977
+  vader        전체  1870  0.009     5.403  0.332 0.740  -2.888   7.386       10.273
+  vader      2014   178  0.078    49.958  1.116 0.265  -4.816   7.815       12.630
+  vader      2015   252 -0.043   -42.549 -0.925 0.355  -6.119 -17.462      -11.343
+  vader      2016   252  0.029    29.610  0.500 0.617   3.395  19.963       16.567
+  vader      2017   251  0.019    10.265  0.280 0.780   2.925   5.759        2.834
+  vader      2018   201  0.019     8.999  0.172 0.863 -18.767  -6.405       12.362
+  vader      2019   156 -0.001    -0.268 -0.008 0.994   2.627   9.476        6.849
+  vader      2020   203 -0.009   -10.056 -0.174 0.862  15.260  10.528       -4.732
+  vader      2021   216 -0.069   -20.991 -0.901 0.368  18.994  19.768        0.773
+  vader      2022   161  0.117    60.896  1.862 0.063 -60.664  13.120       73.784

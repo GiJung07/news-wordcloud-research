@@ -1,0 +1,92 @@
+sector,word,score,reason
+common,surge,1,가격·수요 급등
+common,surges,1,가격·수요 급등
+common,soars,1,급등
+common,jumps,1,급등
+common,rally,1,상승
+common,rallies,1,상승
+common,gains,1,상승·이익
+common,record,1,사상 최대 (실적·판매)
+common,profit,1,이익
+common,profits,1,이익
+common,beats,1,예상 상회
+common,growth,1,성장
+common,boom,1,호황
+common,acquire,1,인수 (인수 대상 프리미엄)
+common,acquires,1,인수
+common,acquisition,1,인수
+common,merger,1,합병
+common,plunge,-1,급락
+common,plunges,-1,급락
+common,slump,-1,부진
+common,falls,-1,하락
+common,drops,-1,하락
+common,loss,-1,손실
+common,losses,-1,손실
+common,layoffs,-1,감원 (수요 둔화 신호)
+common,lawsuit,-1,소송
+common,sues,-1,소송
+common,fine,-1,벌금
+common,fined,-1,벌금
+common,probe,-1,조사
+common,investigation,-1,조사
+common,recall,-1,리콜
+common,bankruptcy,-1,파산
+common,scandal,-1,스캔들
+common,tariffs,-1,관세 = 비용·수출 타격
+common,tariff,-1,관세
+tech,launch,1,신제품 출시
+tech,launches,1,신제품 출시
+tech,breakthrough,1,기술 돌파
+tech,demand,1,수요 (반도체·클라우드 수요 기사가 많음)
+tech,partnership,1,제휴
+tech,antitrust,-1,반독점 규제
+tech,regulators,-1,규제 당국
+tech,regulation,-1,규제
+tech,privacy,-1,개인정보 규제·소송
+tech,breach,-1,정보 유출
+tech,hack,-1,해킹
+tech,hacked,-1,해킹
+tech,outage,-1,서비스 장애
+tech,ban,-1,금지 (앱·수출 금지)
+tech,shortage,-1,칩 부족 = 생산 차질
+tech,sanctions,-1,제재 = 수출 제한
+tech,delay,-1,출시 지연
+tech,delays,-1,출시 지연
+energy,shortage,1,공급 부족 = 유가 상승 = 정유·석유 기업 이익
+energy,drilling,1,시추 확대 (허가 기사)
+energy,pipeline,1,파이프라인 (승인·건설 기사)
+energy,exports,1,에너지 수출 확대
+energy,opec,1,OPEC 감산 기사가 많음 = 유가 지지
+energy,glut,-1,공급 과잉 = 유가 하락
+energy,oversupply,-1,공급 과잉
+energy,spill,-1,기름 유출 = 비용·규제
+energy,leak,-1,누출 = 비용·규제
+energy,emissions,-1,배출 규제 = 석유·가스 기업 비용
+energy,carbon,-1,탄소 규제·탄소세
+energy,regulations,-1,환경 규제
+energy,regulation,-1,환경 규제
+energy,ban,-1,시추·가스 금지
+energy,renewable,-1,재생에너지 확대 = 화석연료 수요 대체
+energy,renewables,-1,재생에너지 확대
+energy,solar,-1,태양광 확대 = 화석연료 대체
+energy,wind,-1,풍력 확대 = 화석연료 대체
+health,approval,1,신약·기기 승인
+health,approves,1,승인
+health,approved,1,승인
+health,breakthrough,1,치료 돌파
+health,cure,1,치료제
+health,vaccine,1,백신 (제약사 매출)
+health,coverage,1,보험 적용 확대 = 수요 증가
+health,pricing,-1,약가 인하 압박
+health,negotiation,-1,메디케어 약가 협상
+health,negotiate,-1,약가 협상
+health,rejects,-1,승인 거절
+health,rejected,-1,승인 거절
+health,fails,-1,임상 실패
+health,failed,-1,임상 실패
+health,opioid,-1,오피오이드 소송
+health,shortage,-1,의약품 부족 = 공급 차질
+health,fraud,-1,의료 사기
+health,repeal,-1,오바마케어 폐지 = 보험 가입자 감소 (병원·보험사)
+health,cuts,-1,메디케이드 삭감

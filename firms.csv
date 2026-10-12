@@ -1,0 +1,45 @@
+ticker,pattern,sector
+AAPL,\bApple\b,tech
+MSFT,\bMicrosoft\b,tech
+GOOGL,\b(?:Google|Alphabet)\b,tech
+META,\b(?:Facebook|Meta)\b,tech
+AMZN,\bAmazon\b,consumer
+TSLA,\bTesla\b,consumer
+NFLX,\bNetflix\b,media
+NVDA,\bNvidia\b,tech
+INTC,\bIntel\b,tech
+IBM,\bI\.?B\.?M\.?,tech
+ORCL,\bOracle\b,tech
+QCOM,\bQualcomm\b,tech
+UBER,\bUber\b,tech
+BA,\bBoeing\b,industrial
+GE,\b(?:General Electric|G\.E\.)\b,industrial
+XOM,\bExxon\b,energy
+CVX,\bChevron\b,energy
+PFE,\bPfizer\b,health
+JNJ,\bJohnson & Johnson\b,health
+MRNA,\bModerna\b,health
+MRK,\bMerck\b,health
+LLY,\bEli Lilly\b,health
+UNH,\bUnitedHealth\b,health
+CVS,\bCVS\b,health
+WMT,\bWalmart\b|\bWal-Mart\b,consumer
+DIS,\bDisney\b,media
+CMCSA,\bComcast\b,media
+T,\bAT&T\b,media
+VZ,\bVerizon\b,media
+JPM,\bJ\.?P\.? ?Morgan\b|\bJPMorgan\b,finance
+GS,\bGoldman\b,finance
+WFC,\bWells Fargo\b,finance
+C,\bCitigroup\b|\bCitibank\b,finance
+BAC,\bBank of America\b,finance
+GM,\bGeneral Motors\b|\bG\.M\.,consumer
+F,\bFord Motor\b,consumer
+MCD,\bMcDonald’?'?s\b,consumer
+SBUX,\bStarbucks\b,consumer
+NKE,\bNike\b,consumer
+KO,\bCoca-Cola\b,consumer
+DAL,\bDelta Air\b,industrial
+UAL,\bUnited Airlines\b,industrial
+AAL,\bAmerican Airlines\b,industrial
+FDX,\bFedEx\b,industrial

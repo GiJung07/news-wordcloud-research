@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.zip
+.env
+*.env
+# 키 작동 확인용 시험 파일 (같은 달이 data/nyt/2014-01.csv.gz에 있음)
+data/nyt_2014_01_raw.json
+
+# 원본 데이터와 헤드라인 원문은 재배포 제한으로 제외
+data/
+output/firm/events.csv
+output/headline_sentiment.csv
